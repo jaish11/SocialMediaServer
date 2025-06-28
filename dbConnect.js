@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = async () => {
   const mongoUri =
-    "mongodb+srv://jaish786:Y12VpQzqxrC9Ycss@cluster0.0ie4hum.mongodb.net/?retryWrites=true&w=majority";
+    "mongodb+srv://jaish786:Jaish786@cluster0.0ie4hum.mongodb.net/?retryWrites=true&w=majority";
 
   try {
     const connect = await mongoose.connect(mongoUri, {
