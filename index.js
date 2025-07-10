@@ -26,7 +26,8 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: "https://social-media-client-one-pearl.vercel.app",
+    origin: "http://localhost:3000",
+    // origin: "https://social-media-client-one-pearl.vercel.app",
   })
 );
 
